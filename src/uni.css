@@ -1,0 +1,73 @@
+/* MyForm.css */
+
+/* Add the following styles for the university name */
+
+.body {
+    display: flex;
+    
+}
+
+
+.down {
+    
+    display: flex;
+    position:absolute;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    justify-content: center;
+   
+    /* Allow flex items to wrap to the next line */
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
+.university-container {
+    align-items: center;
+   
+    width: 400px;
+    height: 250px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    /* Add margin to create space between stacked boxes */
+    background-color: bisque;
+    border-radius: 8px;
+    padding:5px;
+}
+
+.university-background {
+
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.university-background h2 {
+    
+    margin: 0;
+    
+}
+
+/* Media query to adjust styling for smaller screen sizes */
+@media (max-width: 768px) {
+    .box {
+        flex-direction: column;
+        /* Change to a column layout on smaller screens */
+    }
+
+    .university-container {
+        width: 90%;
+        /* Make each box take up 100% of the width on smaller screens */
+        margin-right: 0;
+        /* Remove right margin on smaller screens */
+    }
+}
+.button {
+  color:white;
+  background-color: #04AA6D!important;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+}

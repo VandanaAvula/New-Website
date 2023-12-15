@@ -1,0 +1,80 @@
+/* MyForm.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    /* Center vertically */
+    height: 350px;
+    width: 70%;
+    /* Use a percentage for responsiveness */
+    max-width: 400px;
+    /* Set a maximum width */
+    margin: auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: translate(0,50%);
+}
+
+.title {
+    color: purple;
+}
+
+.center-form {
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 30px;
+}
+
+.form-label {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+
+
+.form-control {
+    width: 100%;
+    /* Take full width on small screens */
+    
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.text-danger {
+    font-size: 14px;
+    color:red;
+}
+
+.btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: purple;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: blue;
+    
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 60%;
+        /* Adjust width for smaller screens */
+    }
+}
+/* MyForm.css */
+
+/* Add the following styles for the university name */

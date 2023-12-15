@@ -1,0 +1,26 @@
+/* MyHeader.css */
+.app-header {
+    background-color: black;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
